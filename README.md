@@ -1,7 +1,9 @@
 # Bootstrap público
 
-Este diretório é a fonte revisada dos arquivos publicados em
-`sysadmin-stack/deskcomm-bootstrap`. Ele não contém código do produto nem segredos.
+Este diretório participa da fonte revisada dos arquivos publicados em
+`sysadmin-stack/deskcomm-bootstrap`. A lista completa e fechada está em
+`scripts/exportar-bootstrap.sh`; o workflow `publicar-bootstrap` sincroniza o repositório público
+após merge na `main`. Ele não contém código do produto nem segredos.
 
 O `instalar.sh` recebe uma credencial técnica somente de leitura, autentica Git e GHCR sem
 colocar o token na URL ou na saída, clona o núcleo privado e entrega o fluxo ao instalador do
